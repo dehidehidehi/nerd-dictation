@@ -104,7 +104,7 @@ Install
 
 .. code-block:: sh
 
-   pip3 install vosk
+   pip3 install vosk --break-system-packages
    git clone https://github.com/ideasman42/nerd-dictation.git
    cd nerd-dictation
    wget https://alphacephei.com/kaldi/models/vosk-model-small-en-us-0.15.zip
@@ -115,7 +115,7 @@ To test dictation:
 
 .. code-block:: sh
 
-   ./nerd-dictation begin --vosk-model-dir=./model &
+   ./nerd-dictation begin --vosk-model-dir=./model --input=PW-CAT &
    # Start speaking.
    ./nerd-dictation end
 
