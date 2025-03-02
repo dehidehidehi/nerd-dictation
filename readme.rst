@@ -103,7 +103,7 @@ Install
 =======
 
 .. code-block:: sh
-
+   sudo apt install xdotool
    pip3 install vosk --break-system-packages
    git clone https://github.com/ideasman42/nerd-dictation.git
    cd nerd-dictation
